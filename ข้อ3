@@ -1,0 +1,12 @@
+def concat_three_strings(str1, str2, str3):
+    return str1 + str2 + str3
+
+s1 = input("กรอกข้อความที่1: ")
+s2 = input("กรอกข้อความที่2: ")
+s3 = input("กรอกข้อความที่3: ")
+print("ผลลัพธ์:", concat_three_strings(s1, s2, s3))
+
+#กรอกข้อความที่1: Hello
+#กรอกข้อความที่2: World
+#กรอกข้อความที่3: :D
+#ผลลัพธ์: HelloWorld:D
