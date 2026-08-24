@@ -1,0 +1,17 @@
+def find_min_value(numbers):
+    return min(numbers) 
+
+
+nums = []
+for i in range(5):
+    val = float(input(f"กรอกตัวเลขตัวที่ {i+1}: "))
+    nums.append(val)
+
+print("ค่าต่ำสุดคือ:", find_min_value(nums))
+
+#กรอกตัวเลขตัวที่ 1: 20
+#กรอกตัวเลขตัวที่ 2: 30
+#กรอกตัวเลขตัวที่ 3: 60
+#กรอกตัวเลขตัวที่ 4: 50
+#กรอกตัวเลขตัวที่ 5: 10
+#ค่าต่ำสุดคือ: 10.0 
