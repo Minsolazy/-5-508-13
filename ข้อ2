@@ -1,0 +1,10 @@
+def sum_of_squares(numbers):
+    return sum(x ** 2 for x in numbers)
+
+
+raw_input = input("กรอกตัวเลขคั่นด้วยช่องว่าง: ")
+nums = [float(x) for x in raw_input.split()]
+print("ผลรวมกำลังสอง:", sum_of_squares(nums))
+
+#กรอกตัวเลขคั่นด้วยช่องว่าง: 12 13
+#ผลรวมกำลังสอง: 313.0
