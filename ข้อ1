@@ -1,0 +1,8 @@
+def square(a):
+    return a ** 2
+
+num = float(input("กรอกตัวเลข: "))
+print("ผลลัพธ์:", square(num))
+
+#กรอกตัวเลข: 700
+#ผลลัพธ์: 490000.0
