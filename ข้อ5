@@ -1,0 +1,18 @@
+def find_index(ls, k):
+    if k in ls:
+        return ls.index(k)
+    return -1
+
+items = input("กรอกรายการข้อมูล (คั่นด้วยช่องว่าง): ").split()
+target = input("กรอกข้อมูลที่ต้องการค้นหา: ")
+
+idx = find_index(items, target)
+if idx != -1:
+    print(f"พบข้อมูลอยู่ที่ตำแหน่ง Index: {idx}")
+else:
+    print("ไม่พบข้อมูลในรายการ")
+
+#กรอกรายการข้อมูล (คั่นด้วยช่องว่าง): 10 20 30 40
+#กรอกข้อมูลที่ต้องการค้นหา: 30
+#พบข้อมูลอยู่ที่ตำแหน่ง Index: 2
+
